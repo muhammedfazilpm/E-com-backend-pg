@@ -14,5 +14,5 @@ app.use(express.json())
 app.use('/api/products/',router)
 
 app.listen(port,()=>{
-    console.log(`server started in ${port}`)
+    console.log(`server started at ${port}`)
 })
